@@ -68,7 +68,7 @@ const Register = (props) => {
     <Container component='main' maxWidth='xs'>
       <CssBaseline />
       <div className={"register" + classes.paper}>
-        <form className={classes.form} noValidate>
+        <form className={classes.form} noValidate id='register'>
           <TextField
             variant='outlined'
             margin='normal'
@@ -110,6 +110,7 @@ const Register = (props) => {
             color='primary'
             onClick={registerUser}
             className={classes.submit}
+            id="rbutton"
           >
             Register
           </Button>

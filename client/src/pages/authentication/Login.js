@@ -60,7 +60,7 @@ const Login = (props) => {
     <Container component='main' maxWidth='xs'>
       <CssBaseline />
       <div className={classes.paper}>
-        <form className={classes.form} noValidate>
+        <form className={classes.form} noValidate id="form">
           <TextField
             variant='outlined'
             margin='normal'
@@ -84,6 +84,7 @@ const Login = (props) => {
             id='password'
             inputRef={passwordRef}
             autoComplete='current-password'
+            
           />
           <Button
             fullWidth
@@ -91,6 +92,7 @@ const Login = (props) => {
             color='primary'
             onClick={loginUser}
             className={classes.submit}
+            id="lbutton"
           >
             Login
           </Button>

@@ -95,7 +95,7 @@ const Authentication = (props) => {
           </SwipeableViews>
         </div>
       </div>
-      <Copyright />
+      {/* <Copyright /> */}
     </div>
   );
 };
