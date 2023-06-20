@@ -32,10 +32,6 @@ Currently uses [this](https://www.npmjs.com/package/sentiment) module that uses 
 
 ### Installation
 
-1. Clone the repo: `git clone https://github.com/priyankamadhwal/ChatBoard.git`
-2. Go to project folder: `cd ChatBoard`
-3. Install dependencies: `npm i`
-
 ### Configuring environment variables
 
 Rename the [.env.template](/server/.env.template) file inside the server folder to `.env` and fill all the values.
