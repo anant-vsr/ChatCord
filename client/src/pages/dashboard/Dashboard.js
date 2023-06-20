@@ -142,7 +142,7 @@ const Dashboard = (props) => {
       <div className={classes.toolbar}>
         <Link to='/dashboard'>
           <p className='dashboardHeaderName'>
-            ChatBoard{" "}
+            ChatCord{" "}
             <Icon className='dashboardHeaderIcon'>mark_chat_read</Icon>
           </p>
         </Link>
@@ -161,7 +161,7 @@ const Dashboard = (props) => {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position='fixed' className={classes.appBar}>
+      <AppBar position='fixed' color='black' className={classes.appBar}>
         <Toolbar>
           <IconButton
             color='inherit'

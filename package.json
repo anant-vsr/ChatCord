@@ -1,5 +1,5 @@
 {
-  "name": "chatboard",
+  "name": "chatcord",
   "version": "1.0.0",
   "description": "A real-time chat application with that performs semantic analysis on every incoming message.",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "postinstall": "(cd server && npm install); (cd client && npm install)"
   },
-  "author": "Priyanka Madhwal",
+  "author": "Anant Vikram Singh Rathore",
   "license": "MIT",
   "dependencies": {
     "concurrently": "^5.2.0",

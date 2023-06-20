@@ -65,7 +65,7 @@ const Authentication = (props) => {
   return (
     <div className='authOuterContainer'>
       <h1 className='authHeading'>
-        ChatBoard <Icon className='authChatIcon'>mark_chat_read</Icon>
+        ChatCord <Icon className='authChatIcon'>mark_chat_read</Icon>
       </h1>
       <div className='authInnerContainer'>
         <div className={classes.root}>

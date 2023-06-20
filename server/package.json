@@ -1,12 +1,12 @@
 {
-  "name": "chatboard-server",
+  "name": "chatcord-server",
   "version": "1.0.0",
   "description": "Chatboad Server: a real-time chat application with sentiment analysis",
   "main": "index.js",
   "scripts": {
     "start": "nodemon"
   },
-  "author": "Priyanka Madhwal",
+  "author": "Anant Vikram Singh Rathore",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^4.0.1",

@@ -46,10 +46,10 @@ const Welcome = (props) => {
   return (
     <div className='welcomeOuterContainer'>
       <h1>Welcome!</h1>
-      <p className='intro'>
+      {/* <p className='intro'>
         Don't miss out on the good stuff when you are just one chat away from
         your favorite topics {ReactEmoji.emojify("<3")}
-      </p>
+      </p> */}
 
       {summary ? (
         <div className='summary'>
